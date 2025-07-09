@@ -13,6 +13,20 @@
     "wdth" 100;
 }
 
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.text-center{
+    align-items: center;
+    text-align: center;
+}
+
+
+
 /* body style */
 body{
     max-width: 1320px;
@@ -41,4 +55,153 @@ body{
     color: #FFFFFF;
     font-size: 72px;
     font-weight: 600;
+}
+/* discount category and happy new year image style */
+.discount{
+    margin: 120px 0 50px 0;
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+}
+.holiday-deals{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+
+}
+.categories{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+/* welcome midnight party style */
+.midnight-party{
+    background-image: linear-gradient(to right, #070211 0%, rgba(7,2,17,0) 100%), url(images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    margin: 120px 0 120px 0;
+
+}
+.welcome-party-container{
+    margin: 126px 0 142px 126px;
+}
+.welcome-party-title{
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.welcome-party-description{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.join-button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    margin: 48px 0 0 32px;
+}
+.image-2024{
+    margin: 68px 138px 68px 40px;
+}
+
+/* party place  */
+.party-place{
+    height: 482px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    padding: 100px 385px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+    
+}
+.party-place h2 span{
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF0000;
+
+}
+.party-place h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    line-height: 56px;
+
+}
+.party-join-button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+}
+
+/* best offer style */
+.best-offer-container{
+    max-height: 463px;
+    margin-bottom: 120px;
+}
+.best-offer{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.best-offer-left-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.best-offer-left-sub-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin: 16px 0 22px 0;
+}
+.best-offer-left-title-description{
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+}
+
+.best-offer-middle-image{
+    border-radius: 50%;
+    border: 8px solid #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+    margin-left: 50px;
+    height: 463px;
+    width: 463px;
+
+}
+.best-offer-middle-image img{
+    margin: 40px;
+}
+
+.best-offer-right-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin: 110px 0 43px 0;
+}
+.best-offer-right-title-description{
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+}
+.best-offer-right-image{
+    margin-top: 43px;
+    height: 130px;
+    width: 130px;
 }
