@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* body style */
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* banner style */
+.header{
+    background-image: linear-gradient(to right, #070211 0%, rgba(7,2,17,0) 100%), url(images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 600px;
+    border-radius: 16px;
+}
+.banner{
+    padding-top: 170px;
+}
+.happy-new-year{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.new-year-party{
+    margin-top: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 600;
+}
